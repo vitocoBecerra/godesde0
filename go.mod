@@ -1,3 +1,3 @@
-module godesde0
+module godesdecero
 
 go 1.23.0
