@@ -6,6 +6,6 @@ import (
 
 func main() {
 
-	variables.MostrarNumeroso()
+	variables.MostrarNumeros()
 
 }
