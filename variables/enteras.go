@@ -10,5 +10,6 @@ func MostrarNumeros() {
 	fmt.Println("int comun = ", intcomun)
 	fmt.Println("int 32 ", intd32)
 	fmt.Println("Glosa es = ", glosa)
+	fmt.Printf("hola [%s]\n", glosa)
 
 }
