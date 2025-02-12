@@ -1,19 +1,36 @@
 package main
 
 import (
-	"fmt"
-	"godesde0/variables"
+	"godesde0/arreglos"
 )
 
 func main() {
 
-	variables.MostrarNumeros()
+	/*
+		variables.MostrarNumeros()
 
-	variables.RestoVariables()
+		variables.RestoVariables()
 
-	boolen, texto := variables.ConvertToText(35098)
+		boolen, texto := variables.ConvertToText(35098)
 
-	fmt.Println(boolen)
-	fmt.Println(texto)
+		fmt.Println(boolen)
+		fmt.Println(texto)
+
+		os := runtime.GOOS
+		fmt.Println(os)
+		if os == "linux" {
+			fmt.Println(os)
+		} else {
+			fmt.Println(" NO Es Linux ")
+		}
+
+		numero, cadena := ejercicio.ConvertirIntToString("53233")
+
+		fmt.Println("Nunero es ", numero)
+		fmt.Println("Cadena es ", cadena)
+	*/
+	//ejercicio.SolicitaNumero()
+	arreglos.MuestroArreglos()
+	arreglos.MostrarSlices()
 
 }
