@@ -8,7 +8,8 @@ func MiWebServer() {
 	http.ListenAndServe(":3000", nil)
 }
 
-func home( w http.ResponseWriter, r *http.Request) {
+func home(w http.ResponseWriter, r *http.Request) {
 
 	http.ServeFile(w, r, "./webserver/index.html")
+
 }
