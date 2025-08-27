@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesde0/arreglos"
+	"godesde0/webserver"
 )
 
 func main() {
@@ -30,7 +30,11 @@ func main() {
 		fmt.Println("Cadena es ", cadena)
 	*/
 	//ejercicio.SolicitaNumero()
-	arreglos.MuestroArreglos()
-	arreglos.MostrarSlices()
+	//arreglos.MuestroArreglos()
+	//arreglos.MostrarSlices()
+	//mapas.MostrarMapas()
+	//usuarios.AltaUsuario()
+	//goroutines.MostrarNombreLentoooo("Victor Becerra")
+	webserver.MiWebServer()
 
 }
